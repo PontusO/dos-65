@@ -1,7 +1,8 @@
 This is DOS-65, a CP/M clone targeted to 6502 based computer systems.
 
-DOS-65 was designed and implemented by Richard A. Leary and I take no credit for his excellent work.
-This is simply my own repository with DOS-65 ported to my own 65C02 based brick computer.
+DOS-65 was designed and implemented by Richard A. Leary and I take no credit for his excellent work. This is simply my own repository with DOS-65 ported to my own 65C02 based brick computer.
+
+All source files will be modified to assemble on cross assembler which includes among a lot of things that all line end comments need to be prepended with a ; sign, as I have yet to find a 6502 cross assembler that works without a comment operator. Currently I use DASM as my prefered assembler, but this can change in the future.
 
 /Pontus
 pontus.oldberg@invector.se
